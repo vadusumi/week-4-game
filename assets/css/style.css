@@ -1,0 +1,40 @@
+body {
+	background-image: url("../images/bgimg.png");
+}
+
+.wrapper {
+	float: none;
+	margin: 0 auto;
+}
+
+#title {
+	background-color: #80ced6;
+	box-shadow: 10px 10px 5px #888;
+	font-family: 'Metamorphous', cursive;
+}
+
+#instructions {
+	font-family: 'El Messiri', sans-serif;
+	font-size: 20px;
+}
+
+#gamebox {
+	background-color: #fefbd8;
+}
+
+#targetscore {
+	font-family: 'El Messiri', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#winsloss {
+	font-family: 'El Messiri', sans-serif;
+	font-size: 18px;
+}
+
+#playerscore {
+	font-family: 'El Messiri', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
