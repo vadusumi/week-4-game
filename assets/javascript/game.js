@@ -14,8 +14,8 @@ var greenGem = 0;
 var wins = 0;
 var losses = 0;
 
-var magicSound = new Audio("assets/sounds/magic.wav");
-var breakSound = new Audio("assets/sounds/break.wav");
+var magicSound = new Audio("../week-4-game/assets/sounds/magic.wav");
+var breakSound = new Audio("../week-4-game/assets/sounds/break.wav");
 
 
 
