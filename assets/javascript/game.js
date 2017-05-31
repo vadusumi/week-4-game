@@ -14,6 +14,9 @@ var greenGem = 0;
 var wins = 0;
 var losses = 0;
 
+var magicSound = new Audio("../sounds/magic.wav");
+var breakSound = new Audio("../sounds/break.wav");
+
 
 
 	function gameplay() {
@@ -42,12 +45,14 @@ var losses = 0;
 
 			if (playerScore > targetScore) {
 			losses++
+			breakSound.play();
 
 			randomizer();
 			};
 
 			if (playerScore == targetScore) {
 			wins++
+			magicSound.play();
 
 			randomizer();
 			};
@@ -60,12 +65,14 @@ var losses = 0;
 
 			if (playerScore > targetScore) {
 			losses++
+			breakSound.play();
 
 			randomizer();
 			};
 
 			if (playerScore == targetScore) {
 			wins++
+			magicSound.play();
 
 			randomizer();
 			};
@@ -78,12 +85,14 @@ var losses = 0;
 
 			if (playerScore > targetScore) {
 			losses++
+			breakSound.play();
 
 			randomizer();
 			};
 
 			if (playerScore == targetScore) {
 			wins++
+			magicSound.play();
 
 			randomizer();
 			};
@@ -96,12 +105,14 @@ var losses = 0;
 
 			if (playerScore > targetScore) {
 			losses++
+			breakSound.play();
 
 			randomizer();
 			};
 
 			if (playerScore == targetScore) {
 			wins++
+			magicSound.play();
 
 			randomizer();
 			};
